@@ -10,7 +10,10 @@
 
 valor_total = float(input('Digite o valor total da compra: '))
 
-if valor_total >= 500:
+if valor_total >= 1000:
+    print('O valor pode ser parcelado em até 10x sem juros')
+
+elif valor_total >= 500:
     print('O valor pode ser parcelado em até 5x sem juros')
 elif valor_total >= 100:
     print('O valor pode ser parcelado em 3x sem juros')
